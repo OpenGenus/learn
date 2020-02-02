@@ -1,0 +1,19 @@
+{
+   "manifest_version": 2,
+
+   "name": "Learn",
+   "description": "Track reading progress on OpenGenus IQ",
+   "version": "1.0.0",
+   "icons": {
+      "128": "assets/images/icon_128.png"
+   },
+   "browser_action": {
+      "default_icon": "assets/images/icon.png",
+      "default_popup": "popup.html"
+   },
+   "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+   },
+   "permissions": ["activeTab", "tabs"]
+}
